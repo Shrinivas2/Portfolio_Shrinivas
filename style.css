@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-sections{
+	height: 600px;
+	width: 100%;
+	border: 3px solid black;
+	text-align: center;
+	background-color: white;
+}
+.navigation-bar{
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(6px);
+	z-index: 1;
+	border-bottom:3px dotted black ;
+}
+.portfolio-sections h1{
+	margin-top: 100px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.main-container{
+	position: relative;
+	top: 75px;
+}
+.brand{
+	font-size: 30px;
+	font-family: Arial Black;
+	font-variant: small-caps;
+	color: orangered;
+}
+.navmenu{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	padding-left: 15px;
+}
+.navmenu:hover{
+	text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;
+}
+.shadow-inset-center {
+	-webkit-animation: shadow-inset-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ 	
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+#home{
+	height: 370;
+	background-image: url(https://thetechnocraft.com/images/software.gif);
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 90% 60%;
+	border: none;
+}
+#info{
+	font-weight: bolder;
+	color: lightslategray;
+}
+#home-info{
+	position: absolute;
+	top: 100px;
+	width: 500px;
+	height: 350px;
+	font-size: 25px;
+	margin-top: 75px;
+	margin-left: 75px;
+}
+.rsmbtn{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: 15px;
+	background-color: royalblue;
+	color: white;
+	transition-duration: 1s;
+}
+
+.rsmbtn:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform-style: 2;
+}
