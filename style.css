@@ -3,7 +3,7 @@
 	margin: 0;
 }
 .portfolio-sections{
-	height: 600px;
+	height: 660px;
 	width: 100%;
 	border: 3px solid black;
 	text-align: center;
@@ -123,7 +123,7 @@ html{
 	transform-style: 2;
 }
 .about-section{
-	height: 500px;
+	height: 650px;
 	width: 100%;
 	border: solid black;
 	background-color: whitesmoke;
@@ -140,10 +140,11 @@ html{
 .aboutmain div{
 	height: 300px;
 	width: 50%;
+
 }
 .itsme{
-	height: 400px;
-	width: 350px;
+	height: 600px;
+	width: 500px;
 	margin-top: 150px;
 	margin-left:-30px ;
 	animation-duration: 4s;
@@ -155,9 +156,10 @@ html{
 .heading{
 	font-family: Arial Black;
 	text-align: center;
-	margin: 30px 0px;
+	margin: 20px 0px;
 	font-size: 40px;
 	color: orange;
+	margin-top: 75px !important;
 }
 .carrerobj{
 	padding:5px ;
@@ -168,4 +170,96 @@ html{
 	text-indent: 100px;
 	word-spacing: 3px;
 	letter-spacing: 1px;
+	margin-right: 25px;
+
+}
+#skills{
+	background-color: floralwhite;
+	border-bottom: gray;
+	border: 2px solid black;
+
+}
+.tbl{
+	margin-left: 5%;
+
+}
+.tbl tr td {
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px lightblue;
+	transition-duration: 1.5s;
+	background-color:lightskyblue;
+	border-spacing: 25px;
+}
+.skills-subheading{
+	text-align: center;
+	font-size: 25px;
+	font-family: Times of Roman ;
+	font-weight: bolder;
+	color: greenyellow;
+	font-variant: small-caps;
+}
+.detailedSkills{
+	font-size: 23px;
+	font-weight: bolder;
+	color: rgb(109, 101, 101, 1.0);
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+.carousel-inner{
+	height: 500px;
+	width: 65%;
+}
+.carousel-item active{
+	height: 300px;
+	image-orientation: revert;
+}
+.contact-section{
+	padding-top: 10px;
+	height: 600px;
+	width: 100%;
+}
+#contact h1 {
+	margin-bottom: 40px; 
+	text-align: left;
+	margin-left: 180px; 
+}
+#contact ul li .text {
+	font-weight: bolder; 
+	font-size: 20px;
+}
+#contact ul {
+	padding-left: 0;
+	padding-left: 50px;
+}
+#contact ul li {
+	list-style: none;
+	margin-bottom: 20px; /* Adjust as needed */
+	display: flex;
+	align-items: center;
+}
+#contact ul li .icon {
+	width: 100px; /* Width of icon container */
+}
+#contact ul li .text {
+	margin-left: 30px; /* Adjust spacing between icon and text */
+	font-weight: bolder;
+}
+#contact ul li .icon i {
+font-size: 50px; /* Adjust icon size */
+}
+.fa-envelope{
+	color: transparent;
+	background: linear-gradient(45deg, red, blue);
+	-webkit-background-clip: text;
+	}
+.fa-phone-square{
+	color: green;
+}
+.fa-linkedin-square{
+	color: #0077b5;
+}
+.fa-map-marker{
+	color: red;
 }
